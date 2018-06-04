@@ -4,7 +4,7 @@ An application for a boutique real estate agency.
 
 #### Check out the App here: [Live Preview](https://lavilla-leemun1.herokuapp.com/)
 
-![screenshot](./public/screenshot.png)
+![screenshot](./public/screenshot.jpg)
 
 This application was created while taking the [Advanced CSS and Sass](https://www.udemy.com/advanced-css-and-sass/) course on Udemy. After finishing the course, I converted the static website into a React application.
 
