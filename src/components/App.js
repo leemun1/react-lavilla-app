@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 
+import Home from "./Home";
+
+import homes from "../seed";
+
 class App extends Component {
   render() {
     return (
@@ -91,7 +95,9 @@ class App extends Component {
           </p>
           <button className="button">Find your new home</button>
         </div>
-        <section className="homes" />
+        <section className="homes">
+          {homes.map(home => <Home home={home} />)}
+        </section>
         <section className="gallery">gallery</section>
         <footer className="footer">footer</footer>
       </div>
