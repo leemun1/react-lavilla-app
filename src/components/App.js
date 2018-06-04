@@ -18,12 +18,14 @@ class App extends Component {
         <Header />
         <Realtors />
         <section className="features">
-          {seed.features.map(feature => <Feature feature={feature} />)}
+          {seed.features.map(feature => (
+            <Feature key={feature.id} feature={feature} />
+          ))}
         </section>
         <div className="story__picture" />
         <StoryContent />
         <section className="homes">
-          {seed.homes.map(home => <Home home={home} />)}
+          {seed.homes.map(home => <Home key={home.id} home={home} />)}
         </section>
         <Footer />
       </div>
