@@ -5,31 +5,33 @@ const Footer = () => (
     <ul className="nav">
       <li className="nav__item">
         <a href="#" className="nav__link">
-          Home
+          <span> Home</span>
         </a>
       </li>
       <li className="nav__item">
         <a href="#" className="nav__link">
-          Listings
+          <span> Listings</span>
         </a>
       </li>
       <li className="nav__item">
         <a href="#" className="nav__link">
-          About La Villa
+          <span> About La Villa</span>
         </a>
       </li>
       <li className="nav__item">
         <a href="#" className="nav__link">
-          Contact
+          <span> Contact</span>
         </a>
       </li>
       <li className="nav__item">
         <a href="#" className="nav__link">
-          Careers
+          <span> Careers</span>
         </a>
       </li>
     </ul>
-    <p className="copyright">Create by @leemun1</p>
+    <p className="copyright">
+      Create by <a href="https://github.com/leemun1">@leemun1</a>
+    </p>
   </footer>
 );
 

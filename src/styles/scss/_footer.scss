@@ -13,7 +13,7 @@
 
   &__link:link,
   &__link:visited {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #fff;
     text-decoration: none;
     font-family: $font-display;
@@ -21,7 +21,12 @@
     text-align: center;
     padding: 1.5rem;
     display: block;
-    transition: all 0.2s;
+    transition: all 0.3s;
+
+    span {
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid;
+    }
   }
 
   &__link:hover,
@@ -32,8 +37,13 @@
 }
 
 .copyright {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: $color-grey-light-1;
   margin-top: 6rem;
   text-align: center;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
